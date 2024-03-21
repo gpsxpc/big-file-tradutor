@@ -1,6 +1,34 @@
-Projeto criado com o objetivo de traduzir textos com mais de 5000 caracteres. Funciona de uma forma bem simples, pegue seu texto e coloque em um arquivo chamado input.txt juntamente com o arquivo .py ao executar o codigo em Python teremos um arquivo output.txt. Traduzido do inglês (input.txt) para o português (output.txt) é necessario importar a biblioteca googletrans.
+# Translator
 
-Para instalar a biblioteca googletrans digite o seguinte código > pip install googletrans==4.0.0-rc1 OBS.: deve ser digitado com permissões de administrador.
+Este é um simples script em Python que permite traduzir textos de um idioma para outro usando a API do Google Translate.
 
-Feito isso basta executar o arquivo .py
+## Requisitos
+
+- Python 3.x
+- Biblioteca `googletrans` (instalável via `pip install googletrans==4.0.0-rc1`)
+
+## Como usar
+
+1. Clone este repositório para o seu computador:
+
+git clone https://github.com/gpsxpc/big-file-tradutor.git
+
+2. Navegue até o diretório do projeto:
+
+cd big-file-tradutor
+
+3. Execute o script `translator.py` e forneça o arquivo de entrada, arquivo de saída e o código do idioma de destino:
+
+python translator.py input.txt output.txt pt
+
+4. Substitua `input.txt` pelo caminho do arquivo de texto que você deseja traduzir, `output.txt` pelo caminho onde o texto traduzido será salvo e `pt` pelo código do idioma de destino (ex: `pt` para português, `en` para inglês, etc.).
+
+## Contribuindo
+
+Se você quiser contribuir com este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Todas as contribuições são bem-vindas!
+
+## Licença
+
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
 
